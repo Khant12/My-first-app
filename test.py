@@ -47,7 +47,7 @@ information()
 
 
 options = st.multiselect(
-     'What are your favorite colors',
+     'What are my favorite colors',
      ['Green', 'Yellow', 'Red', 'Blue','Black', 'DarkBlue'])
 
 if "Blue" in options:
