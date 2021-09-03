@@ -73,7 +73,8 @@ if submitted:
     
     with st.spinner('Wait for it...'):
         time.sleep(5)
-        st.success('Yay..See you next time')
         st.balloons()
+        st.success('Yay..See you next time')
+        
 
 
