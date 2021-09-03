@@ -10,7 +10,7 @@ st.write(f"Today is {now}")
 
 st.title('Am I Human Too?')
 from PIL import Image
-image = Image.open('images.jpeg')
+image = Image.open('./photo/images.jpeg')
 
 st.image(image, caption= '')
 
